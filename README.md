@@ -35,16 +35,6 @@ A proposta é apresentar notícias de forma simples, rápida e organizada, com u
 
 [Clique aqui](https://www.figma.com/design/1TO9dvpQmDiXxNHhUAuYlb/Loops?node-id=0-1&p=f&t=Ngg31EHkZ2gs1Ys4-0)
 
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/loopsdesenvolvedor/loops.git
-
-cd pulse
-
-npm install
-
-http://localhost:3000
 
 
 
