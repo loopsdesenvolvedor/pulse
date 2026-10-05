@@ -6,11 +6,8 @@ import express, {
   NextFunction,
 } from "express";
 import path from "path";
-import { fileURLToPath } from "url";
-import { usersPublic } from "./users/public.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import { usersPublic } from "./users/public.js";
 
 const router = Router();
 
