@@ -1,3 +1,21 @@
-<header>
-  <div class="bg-red-700.5"><h1>oi</h1></div>
+<header id="navbar">
+  <div class="container">
+    <div>
+      <a href="/"><img src="/img/logo.svg" alt="Pulse" /></a>
+      <div class="navbar-naviagtion-menu-desktop">
+        <%- include('btn-menu') %>
+      </div>
+    </div>
+    <nav class="navbar-naviagtion">
+      <button class="navbar-naviagtion-search-mobile">
+        <img src="/img/icon-search-home.svg" alt="" />
+      </button>
+      <div>
+        <a href="/">Entrar</a>
+        <div class="navbar-naviagtion-menu-mobile">
+          <%- include('btn-menu') %>
+        </div>
+      </div>
+    </nav>
+  </div>
 </header>
